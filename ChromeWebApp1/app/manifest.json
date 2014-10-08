@@ -1,0 +1,17 @@
+﻿{
+	"name": "Sandeep Chrome",
+	"description": "Sandeep Google chrome App",
+	"version": "1",
+	"manifest_version": 2,
+	"app": {
+	"background": {
+	  "scripts": ["background.js"]
+	},
+	"permissions": [
+	"identity",
+	"https://ssl.gstatic.com/",
+	"https://www.googleapis.com/",
+	"https://accounts.google.com/"
+  ]
+  }
+}
